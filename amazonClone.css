@@ -1,0 +1,281 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  background-color: #000000;
+  color: white;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.amazon-logo img{
+  display: flex;
+  align-items: center;
+  height: 54px;
+  width: 115px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0  5px;
+}
+.delivery-Section {
+  display: flex;
+  align-items: center;
+  padding: 11px 5px;
+}
+.location-symbol i{
+  font-size: 16px;
+}
+.delivery-Section .delivery-info {
+  margin-left: 10px;
+}
+.para1 {
+  font-size: 12px;
+  color: #CCCCCC;
+}
+.para2 {
+  font-size: 14px;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  width: 800px;
+}
+.search-bar select {
+  height: 40px;
+  width: auto;
+  outline: none;
+  border: none;
+  background-color: #E6E6E6;
+  color: #0F1111;
+  padding: 0px 0px 0px 5px;
+  font-size: 14px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.search-bar input{
+  height: 40px;
+  width: 100%;
+  font-size: 14px;
+  outline: none;
+  border: none;
+  padding-left: 8px;
+}
+.search-bar i {
+  background-color: rgb(248, 179, 51);
+  color: rgb(0, 0, 0);
+  height: 40px;
+  width:50px;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.signin .p1 {
+  font-size: 12px;
+}
+.signin .p2 {
+  font-size: 14px;
+  font-weight: 700;
+}
+.cart  {
+  display: flex;
+  align-items: flex-end;
+  font-size: 32px;
+}
+.cart p {
+  font-size: 14px;
+  font-weight: 700;
+}
+.signin,
+.cart {
+  padding: 11px 5px;
+}
+.border {
+  border: 1px solid transparent;
+}
+.border:hover {
+  border: 1px solid white;
+  cursor: pointer;
+}
+.panel {
+  background-color: #232F3E;
+  color: white;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  padding-left: 14px;
+}
+.panel i {
+  padding-right: 2px;
+}
+.panel-all {  
+  border: 1px solid transparent;
+  padding: 10px 4px;
+}
+.panel-all:hover {
+  border: 1px solid white;
+}
+.panel a {
+  text-decoration: none;
+  color: white;
+}
+.panel-ops {
+  margin-left: 14px;
+}
+.panel-ops .border1 {
+  padding: 10px 4px;
+  border: 1px solid transparent;
+  overflow: hidden;
+}
+.panel-ops .border1:hover {
+  border: 1px solid white;
+}
+.panel-ops a {
+  margin: 0px 4px;
+}
+.new-launches .launch {
+  display: flex;
+  align-items: center;
+  height: 36px;
+  margin-left: 54px;
+  border: 1px solid transparent;
+  
+}
+.new-launches .launch:hover {
+  border: 1px solid white;
+  cursor: pointer;
+}
+.hero-section {
+  background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wireless/devjyoti/GW/Uber/Nov/D103625178_DesktopTallHero_3000x1200._CB574597993_.jpg");
+  background-size: cover;
+  height: 330px;
+  width: 100%;
+  cursor: pointer;
+}
+.shop-section {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: #dcdcdc;
+}
+.item-section {
+  border: 1px solid transparent;
+  background-color: white;
+  height: 320px;
+  width: 23.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly ;
+  margin-bottom: 26px;
+}
+.item-section img {
+  height: 220px;
+  width: 100%;
+  background-size: cover;
+  padding: 12.5px 0px;
+  cursor: pointer;
+}
+.item1 {
+  margin-left: 18px;
+  margin-right: 18px;
+}
+.item1 a {
+  text-decoration: none;
+  color: rgb(26, 117, 196);
+}
+.item1 a:hover {
+  text-decoration: underline;
+  color: rgb(216, 106, 10);
+}
+.sign-in {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 150px;
+  justify-content: center;
+  line-height: 28px;
+}
+.sign-in button {
+  background-color: #fecb4b;
+  height: 30px;
+  width: 230px;
+  padding: 8px 0;
+  border: none;
+  border-radius: 4px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.sign-in .p1 {
+  font-size: 13px;
+}
+.sign-in .p2 {
+  font-size: 11px;
+  
+}
+.sign-in a {
+  text-decoration: none;
+  color: rgb(26, 117, 196);
+  
+}
+.footer {
+  background-color:#232F3E;
+  color: white;
+  width: 100%;
+  height: auto;
+}
+.footer1 p {
+  height: 50px;
+  background-color: #37475a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.footer2 {
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+  margin: 40px 0;
+}
+.footer2 ul li {
+  list-style-type: none;
+}
+.footer2 p {
+  color: #FFFFFF;
+  font-weight: 700;
+  margin: 6px 0 14px 0;
+  font-size: 16px;
+}
+.footer2 ul a {
+  text-decoration: none;
+  color: #DDDDDD;
+  line-height: 28px;
+  font-size: 14px;
+}
+.footer2 ul a:hover,
+.conditions a:hover {
+  text-decoration: underline;
+}
+.footer3 {
+  background-color: #131A22;
+  font-size: 12px;
+  text-align: center;
+  padding: 14px 0 25px;
+}
+.conditions a {
+  text-decoration: none;
+  margin: 0 8px;
+  color: #DDDDDD;
+}
+.copy-right {
+  margin-top: 8px;
+}
